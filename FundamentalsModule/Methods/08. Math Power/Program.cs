@@ -6,7 +6,7 @@ namespace _08._Math_Power
     {
         static void Main(string[] args)
         {
-            double @base = int.Parse(Console.ReadLine());
+            double @base = double.Parse(Console.ReadLine());
             int power = int.Parse(Console.ReadLine());
 
             Console.WriteLine(_Math_Power(@base, power));
