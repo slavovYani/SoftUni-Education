@@ -5,6 +5,20 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Train", "01. Train\01. Train.csproj", "{EA24FD16-A51E-4DA4-B964-7E4A2EB50517}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Change List", "02. Change List\02. Change List.csproj", "{A56C50C7-8028-4C89-9BA0-34C22CD7936B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. House Party", "03. House Party\03. House Party.csproj", "{90CDF5F6-6852-4A27-94F5-E7543465CDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. List Operations", "04. List Operations\04. List Operations.csproj", "{4175E20C-5887-4FD8-8A74-083B9DEA0EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Bomb Numbers", "05. Bomb Numbers\05. Bomb Numbers.csproj", "{DD96438E-7058-412D-A101-3F065A6446AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{D61B9E5B-118B-4080-AC3F-14435157A52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Cards Game", "06. Cards Game\06. Cards Game.csproj", "{1C413682-3C60-47D1-B0F5-9958B116F6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Append Arrays", "07. Append Arrays\07. Append Arrays.csproj", "{202C0577-FF00-4F5B-9C4C-E5CFEC733544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,34 @@ Global
 		{EA24FD16-A51E-4DA4-B964-7E4A2EB50517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA24FD16-A51E-4DA4-B964-7E4A2EB50517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA24FD16-A51E-4DA4-B964-7E4A2EB50517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56C50C7-8028-4C89-9BA0-34C22CD7936B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56C50C7-8028-4C89-9BA0-34C22CD7936B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56C50C7-8028-4C89-9BA0-34C22CD7936B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56C50C7-8028-4C89-9BA0-34C22CD7936B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CDF5F6-6852-4A27-94F5-E7543465CDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CDF5F6-6852-4A27-94F5-E7543465CDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CDF5F6-6852-4A27-94F5-E7543465CDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CDF5F6-6852-4A27-94F5-E7543465CDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4175E20C-5887-4FD8-8A74-083B9DEA0EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4175E20C-5887-4FD8-8A74-083B9DEA0EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4175E20C-5887-4FD8-8A74-083B9DEA0EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4175E20C-5887-4FD8-8A74-083B9DEA0EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD96438E-7058-412D-A101-3F065A6446AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD96438E-7058-412D-A101-3F065A6446AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD96438E-7058-412D-A101-3F065A6446AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD96438E-7058-412D-A101-3F065A6446AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61B9E5B-118B-4080-AC3F-14435157A52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61B9E5B-118B-4080-AC3F-14435157A52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61B9E5B-118B-4080-AC3F-14435157A52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61B9E5B-118B-4080-AC3F-14435157A52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C413682-3C60-47D1-B0F5-9958B116F6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C413682-3C60-47D1-B0F5-9958B116F6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C413682-3C60-47D1-B0F5-9958B116F6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C413682-3C60-47D1-B0F5-9958B116F6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202C0577-FF00-4F5B-9C4C-E5CFEC733544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202C0577-FF00-4F5B-9C4C-E5CFEC733544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202C0577-FF00-4F5B-9C4C-E5CFEC733544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202C0577-FF00-4F5B-9C4C-E5CFEC733544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
