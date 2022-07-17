@@ -82,11 +82,11 @@ namespace _06._1.Vehicle_Catalogue
             var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine($"Type: {Type}");
 
-            stringBuilder.Append($"Model: {Model}");
+            stringBuilder.AppendLine($"Model: {Model}");
 
-            stringBuilder.Append($"Color: {Color}");
+            stringBuilder.AppendLine($"Color: {Color}");
 
-            stringBuilder.Append($"Horsepower: {HorsePower}");
+            stringBuilder.AppendLine($"Horsepower: {HorsePower}");
 
             return stringBuilder.ToString().TrimEnd();
         }
