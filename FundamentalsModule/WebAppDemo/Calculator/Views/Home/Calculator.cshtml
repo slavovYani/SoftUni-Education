@@ -1,0 +1,11 @@
+﻿<h1> This is my first calculator</h1>
+
+<form method="POST">
+    <input type="text" placeholder="Enter number" name="firstNumber" pattern="\b\d*\.?(\d+?)$" />
+    <input type="text" placeholder="Enter operation" name="operation" pattern="^[+\-*\/]{1}$" />
+    <input type="text" placeholder="Enter number" name="secondNumber" pattern="\b\d*\.?(\d+?)$" />
+        <input type = "submit" value="Submit" />
+
+    </form>
+
+    <h2> Your result is here: @ViewBag.FinalResult </h2>

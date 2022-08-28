@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Furniture", "01. Furniture\01. Furniture.csproj", "{51A743EF-2302-4046-9E50-F24D8EA56C14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Race", "02. Race\02. Race.csproj", "{6C6FB97A-942D-4AE5-B37D-AA6FE60C81D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SoftUni Bar Income", "03. SoftUni Bar Income\03. SoftUni Bar Income.csproj", "{28F46CA3-C1B3-4CF1-844C-7B68E21B767A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{51A743EF-2302-4046-9E50-F24D8EA56C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A743EF-2302-4046-9E50-F24D8EA56C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A743EF-2302-4046-9E50-F24D8EA56C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6FB97A-942D-4AE5-B37D-AA6FE60C81D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6FB97A-942D-4AE5-B37D-AA6FE60C81D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6FB97A-942D-4AE5-B37D-AA6FE60C81D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6FB97A-942D-4AE5-B37D-AA6FE60C81D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F46CA3-C1B3-4CF1-844C-7B68E21B767A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F46CA3-C1B3-4CF1-844C-7B68E21B767A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F46CA3-C1B3-4CF1-844C-7B68E21B767A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F46CA3-C1B3-4CF1-844C-7B68E21B767A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
