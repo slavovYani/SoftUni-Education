@@ -13,11 +13,36 @@ namespace _08._Traffic_Jam
             Queue<string> cars = new Queue<string>();
 
             string input = Console.ReadLine();
-            while (input!="End")
+
+            while (input != "end")
             {
+                if (input == "green")
+                {
+
+                    for (int i = 0; i < carsToPass; i++)
+                    {
+                        if (cars.Count > 0)
+                        {
+                            Console.WriteLine(cars.Dequeue() + " passed!");
+                            counterForCars++;
+
+                        }
+
+                    }
+
+
+                }
+
+                if (input != "green")
+                {
+                    cars.Enqueue(input);
+                }
+
+
 
                 input = Console.ReadLine();
             }
+            Console.WriteLine($"{counterForCars} cars passed the crossroads.");
 
         }
     }
