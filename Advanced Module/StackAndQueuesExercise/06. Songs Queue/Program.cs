@@ -16,10 +16,6 @@ namespace _06._Songs_Queue
                 string[] commands = Console.ReadLine().Split();
                 string currentCom = commands[0];
 
-                if (currentCom == "")
-                {
-                    return;
-                }
                 switch (currentCom)
                 {
                     case "Play":
