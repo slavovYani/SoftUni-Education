@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Key Revolver", "11. Key
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{7F73A713-125D-45E3-990D-2689CAFBF9AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{FEC85B95-0387-4529-9584-FC301232C2B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{7F73A713-125D-45E3-990D-2689CAFBF9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F73A713-125D-45E3-990D-2689CAFBF9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F73A713-125D-45E3-990D-2689CAFBF9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC85B95-0387-4529-9584-FC301232C2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC85B95-0387-4529-9584-FC301232C2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC85B95-0387-4529-9584-FC301232C2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC85B95-0387-4529-9584-FC301232C2B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

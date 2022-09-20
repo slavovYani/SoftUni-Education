@@ -12,6 +12,7 @@ namespace _09._Simple_Text_Editor
             StringBuilder text = new StringBuilder();
             text = text.Append("");
             Stack<string> textChanges = new Stack<string>();
+            textChanges.Push(text.ToString());
 
             for (int i = 0; i < numberOfOperations; i++)
             {
