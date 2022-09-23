@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -6,7 +8,24 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(65%2);
+            double[] input = Console.ReadLine().Split().Select(double.Parse).ToArray();
+
+            Dictionary<double, int> numberOccur = new Dictionary<double, int>();
+
+            foreach (var number in input)
+            {
+                if (!numberOccur.ContainsKey(number))
+                {
+                    numberOccur[number] = 0;
+                }
+                numberOccur[number]++;
+
+            }
+
+            foreach (var item in numberOccur)
+            {
+                Console.WriteLine($"{item.Key} - {item.Value} times");
+            }
         }
     }
 }
