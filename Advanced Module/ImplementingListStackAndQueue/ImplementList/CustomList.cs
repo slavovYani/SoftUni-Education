@@ -49,7 +49,7 @@ namespace ImplementList
 
             this.items[this.Count++] = item;
 
-            if (this.Count==this.items.Length)
+            if (this.Count == this.items.Length)
             {
                 this.Resize();
             }
@@ -57,7 +57,7 @@ namespace ImplementList
         }
         public int RemoveAt(int index)
         {
-            if (index>=this.Count)
+            if (index >= this.Count)
             {
                 throw new ArgumentOutOfRangeException();
             }
@@ -67,27 +67,23 @@ namespace ImplementList
             this.Shift(index);
             this.Count--;
 
-            if (this.Count<=this.items.Length/4)
+            if (this.Count <= this.items.Length / 4)
             {
                 this.Shrink();
             }
-                return result;
-            
+            return result;
+
         }
         public bool Contains(int item)
         {
             foreach (var element in items)
             {
-                if (element==item)
+                if (element == item)
                 {
                     return true;
                 }
             }
             return false;
-        }
-        public void Swap(int startIndex, int secondIndex)
-        {
-
         }
         private void Resize()
         {
@@ -115,13 +111,13 @@ namespace ImplementList
             }
 
         }
-        public void InsertAt(int index,int item)
+        public void InsertAt(int index, int item)
         {
-            if (index>this.Count)
+            if (index > this.Count)
             {
                 throw new ArgumentOutOfRangeException();
             }
-            if (this.items.Length==this.Count)
+            if (this.items.Length == this.Count)
             {
                 this.Resize();
             }
@@ -136,6 +132,19 @@ namespace ImplementList
             {
                 this.items[i] = items[i - 1];
             }
+        }
+        public void Swap(int firstIndex, int secondIndex)
+        {
+            if (firstIndex >= this.Count && secondIndex >= this.Count)
+            {
+
+                throw new ArgumentOutOfRangeException();
+            }
+            int currItem = this.items[firstIndex];
+            this.items[firstIndex] = this.items[secondIndex];
+            this.items[secondIndex] = currItem;
+
+
         }
     }
 }
