@@ -4,7 +4,6 @@ namespace WildFarm.Core
     using System;
     using System.Collections.Generic;
     using WildFarm.Exceptions;
-    using WildFarm.Factories;
     using WildFarm.Factories.Interfaces;
     using WildFarm.IO;
     using WildFarm.Models.Animal;
@@ -17,7 +16,7 @@ namespace WildFarm.Core
 
         private readonly IAnimalFactory animalFactory;
         private readonly IFoodFactory foodFactory; // here for checking
-        private readonly  ICollection<Animal> animals;
+        private readonly ICollection<Animal> animals;
 
         private Engine()
         {
