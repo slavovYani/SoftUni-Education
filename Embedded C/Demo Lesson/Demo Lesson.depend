@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671341013 source:c:\users\hp x2 1012 g2\documents\github\softuni-education\embedded c\demo lesson\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

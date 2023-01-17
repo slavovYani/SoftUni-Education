@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671370569 source:c:\users\hp x2 1012 g2\documents\github\softuni-education\embedded c\toyshop\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
